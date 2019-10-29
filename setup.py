@@ -9,8 +9,8 @@ long_description = open(os.path.join(
 
 setup(
     name='backports.ssl_match_hostname',
-    version='3.7.0.1',
-    description='The ssl.match_hostname() function from Python 3.5',
+    version='3.7.0.2',
+    description='The ssl.match_hostname() function from Python 3.7',
     long_description=long_description,
     author='Brandon Rhodes',
     author_email='brandon@rhodesmill.org',
