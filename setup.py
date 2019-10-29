@@ -36,5 +36,6 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Topic :: Security :: Cryptography',
         ],
-    packages=['backports', 'backports.ssl_match_hostname'],
-    )
+    packages=['backports.ssl_match_hostname'],
+    namespace_packages=['backports'],
+)
